@@ -1,0 +1,9 @@
+%%HP: T(3)A(R)F(.);
+\<< \-> A B
+  \<<
+    IF `A==0.` `B==0.` OR
+    THEN 0.
+    ELSE `-(A/(A+B))*(LOG(A/(A+B))/LOG(2.))-B/(A+B)*(LOG(B/(A+B))/LOG(2.))`
+    END
+  \>>
+\>>
