@@ -1,0 +1,14 @@
+%%HP: T(0)A(D)F(.);
+@ Argumentos:
+@ Autor:
+@ E-mail:
+@ Versión:
+@ Creado con HPUserEdit 6
+
+«
+   A
+  «  
+   A  …LIST 'B' STO
+   1 A « X B / 2 ^ - » MAP …LIST -           
+  » 
+»
