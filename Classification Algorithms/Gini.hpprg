@@ -1,14 +1,20 @@
 %%HP: T(0)A(D)F(.);
-@ Argumentos:
-@ Autor:
-@ E-mail:
-@ Versión:
-@ Creado con HPUserEdit 6
-
+@ Argumentos: Lista de Elementos em cada classe
+@ Autor: Rodrigo Rodrigues
+@ E-mail: rodrigo@rodrigorodrigues.info
+@ Versão: 1
+@ Criado com HPUserEdit 6
+  
 «
-   A
-  «  
-   A  …LIST 'B' STO
-   1 A « X B / 2 ^ - » MAP …LIST -           
-  » 
+   GIA
+  «
+   GIA …LIST  GIB
+   «
+    1
+    GIA
+    « GIB / 2 ^ » MAP
+    …LIST
+    -
+   »
+  »
 »
