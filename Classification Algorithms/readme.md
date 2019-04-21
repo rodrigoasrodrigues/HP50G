@@ -20,6 +20,20 @@ e.g.:
 
 ![Info(5,3)=-\frac{5}{8}\log_2\left (\frac{5}{8}  \right )-\frac{3}{8}\log_2\left (\frac{3}{8}  \right )](https://latex.codecogs.com/gif.latex?Info%285%2C3%29%3D-%5Cfrac%7B5%7D%7B8%7D%5Clog_2%5Cleft%20%28%5Cfrac%7B5%7D%7B8%7D%20%5Cright%20%29-%5Cfrac%7B3%7D%7B8%7D%5Clog_2%5Cleft%20%28%5Cfrac%7B3%7D%7B8%7D%20%5Cright%20%29)
 
+## SplitInfo
+
+Using in GainRatio Calculation:
+
+![GainRaio(A) = \frac{Gain(A))}{SplitInfo(A)}](https://latex.codecogs.com/gif.latex?GainRaio%28A%29%20%3D%20%5Cfrac%7BGain%28A%29%29%7D%7BSplitInfo%28A%29%7D)
+
+The formula is:
+
+![SplitInfo_A(D)=-\sum_{j=1}^{v}\frac{\left | D_j \right |}{\left | D \right |}\times \log_2\left ( \frac{\left | D_j \right |}{\left | D \right |} \right )](https://latex.codecogs.com/gif.latex?SplitInfo_A%28D%29%3D-%5Csum_%7Bj%3D1%7D%5E%7Bv%7D%5Cfrac%7B%5Cleft%20%7C%20D_j%20%5Cright%20%7C%7D%7B%5Cleft%20%7C%20D%20%5Cright%20%7C%7D%5Ctimes%20%5Clog_2%5Cleft%20%28%20%5Cfrac%7B%5Cleft%20%7C%20D_j%20%5Cright%20%7C%7D%7B%5Cleft%20%7C%20D%20%5Cright%20%7C%7D%20%5Cright%20%29)
+
+e.g.:
+
+![SplitInfo({4,6,4})=-\frac{4}{14}\log_2 \frac{4}{14}-\frac{6}{14}\log_2 \frac{6}{14}-\frac{4}{14}\log_2 \frac{4}{14} = 1.557](https://latex.codecogs.com/gif.latex?SplitInfo%28%7B4%2C6%2C4%7D%29%3D-%5Cfrac%7B4%7D%7B14%7D%5Clog_2%20%5Cfrac%7B4%7D%7B14%7D-%5Cfrac%7B6%7D%7B14%7D%5Clog_2%20%5Cfrac%7B6%7D%7B14%7D-%5Cfrac%7B4%7D%7B14%7D%5Clog_2%20%5Cfrac%7B4%7D%7B14%7D%20%3D%201.557)
+
 ## Gini Index
 
 Calculates the Gini Index given a List of Values:
