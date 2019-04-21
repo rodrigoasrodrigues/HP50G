@@ -24,7 +24,7 @@ e.g.:
 
 Using in GainRatio Calculation:
 
-![GainRaio(A) = \frac{Gain(A))}{SplitInfo(A)}](https://latex.codecogs.com/gif.latex?GainRaio%28A%29%20%3D%20%5Cfrac%7BGain%28A%29%29%7D%7BSplitInfo%28A%29%7D)
+![GainRaio(A) = \frac{Gain(A)}{SplitInfo(A)}](https://latex.codecogs.com/gif.latex?GainRaio%28A%29%20%3D%20%5Cfrac%7BGain%28A%29%7D%7BSplitInfo%28A%29%7D)
 
 The formula is:
 
