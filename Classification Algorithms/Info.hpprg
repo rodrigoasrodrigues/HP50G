@@ -1,0 +1,16 @@
+%%HP: T(0)A(D)F(.);
+@ Argumentos: Dois Elementos para calculo de INFO
+@ Autor: Rodrigo Rodrigues
+@ E-mail: rodrigo@rodrigorodrigues.info
+@ Vers„o: 1
+@ Criado com HPUserEdit 6
+
+´ ç A B
+  ´
+    IF `A==0.` `B==0.` OR
+    THEN 0.
+    ELSE `-(A/(A+B))*(LOG(A/(A+B))/LOG(2.))-B/(A+B)*(LOG(B/(A+B))/LOG(2.))`
+    END
+  ª
+ª
+

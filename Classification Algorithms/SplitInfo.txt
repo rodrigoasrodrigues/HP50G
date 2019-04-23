@@ -1,0 +1,11 @@
+%%HP: T(3)A(R)F(.);
+\<< \-> SIA
+  \<< SIA \GSLIST \-> SIB
+    \<< SIA
+      \<< \-> SITA
+        \<< SITA SIB / NEG SITA SIB / LOG 2. LOG / *
+        \>>
+      \>> MAP \GSLIST
+    \>>
+  \>>
+\>>
